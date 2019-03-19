@@ -1,3 +1,23 @@
+main.js lab-day1
+let yourpetsName = prompt('what is your pets name?')
+let favoritepetFood = prompt ('what is your pets favorite food?')
+let favoritepetActivity = prompt ('what is your pets favorite activity?')
+
+confirm(`${yourpetsName} ${favoritepetFood} is on sale for 5% off!`)
+
+main.css lab-day1 
+body{
+    background-color: #dee8f1;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #864259;
+}
+h3{
+    color: #5e6949;
+}
+
+index.html lab-day 1
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +30,6 @@
 <body>
     <h1>Save a Life</h1>
     <h3>Adopt don't Shop</h3>
-
-    <p id="para">Test</p>
-
     <img src="eric-ward-610868-unsplash.jpg" alt="man and dog" width="1000" height="688">
     <ol>
         <li>Item 1</li>
